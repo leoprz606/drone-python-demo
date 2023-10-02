@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_drone_python_demo_1696279340382-pr-trigger-input-set
+  identifier: Build_drone_python_demo_1696279340382prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Training
+  pipeline:
+    identifier: Build_drone_python_demo_1696279340382
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
