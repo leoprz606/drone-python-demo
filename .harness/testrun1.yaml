@@ -1,0 +1,11 @@
+inputSet:
+  pipeline:
+    identifier: Build_drone_python_demo_1696281224476
+    properties:
+      ci:
+        codebase:
+          build: ""
+  name: testrun-1
+  identifier: testrun1
+  orgIdentifier: default
+  projectIdentifier: Training
